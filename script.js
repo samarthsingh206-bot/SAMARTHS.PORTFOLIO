@@ -146,19 +146,11 @@
     });
   }
 
-  function initYear() {
-    var yearEl = document.getElementById('current-year');
-    if (yearEl) {
-      yearEl.textContent = new Date().getFullYear();
-    }
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     initTheme();
     initMobileMenu();
     initScrollSpy();
     initClipboard();
     initScrollReveal();
-    initYear();
   });
 })();

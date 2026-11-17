@@ -132,8 +132,6 @@ button {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
-
-/* Typography Helpers */
 .serif {
   font-family: var(--font-serif);
 }
@@ -141,8 +139,6 @@ button {
 .mono {
   font-family: var(--font-mono);
 }
-
-/* Marker Highlights */
 mark.hl {
   color: inherit;
   font-weight: 500;
@@ -173,8 +169,6 @@ mark.hl-gold {
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
-
-/* Layout Grid */
 .container {
   width: 100%;
   max-width: var(--container);
@@ -236,8 +230,6 @@ mark.hl-gold {
   color: var(--ink-muted);
   line-height: 1.5;
 }
-
-/* Header & Navigation */
 .site-header {
   position: sticky;
   top: 0;
@@ -368,8 +360,6 @@ mark.hl-gold {
   border: 1px solid var(--rule);
   color: var(--ink);
 }
-
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -438,8 +428,6 @@ mark.hl-gold {
   background-color: var(--bg-subtle);
   border-color: var(--ink-secondary);
 }
-
-/* Hero Section */
 .hero {
   position: relative;
   padding: clamp(3.5rem, 8vh, 6rem) 0 clamp(3rem, 6vh, 4.5rem) 0;
@@ -537,8 +525,6 @@ mark.hl-gold {
   gap: var(--space-3);
   padding-top: var(--space-2);
 }
-
-/* Metric Strip / Stats Grid */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -566,8 +552,6 @@ mark.hl-gold {
   color: var(--ink-muted);
   line-height: 1.4;
 }
-
-/* About Stack */
 .about-stack {
   display: flex;
   flex-direction: column;
@@ -609,8 +593,6 @@ mark.hl-gold {
   font-weight: 500;
   color: var(--ink);
 }
-
-/* Academic Credentials Table */
 .data-table-container {
   width: 100%;
   overflow-x: auto;
@@ -702,8 +684,6 @@ mark.hl-gold {
   color: var(--ink-secondary);
   border: 1px solid var(--rule);
 }
-
-/* Experience & Roles */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -773,8 +753,6 @@ mark.hl-gold {
   left: calc(-1 * var(--space-4));
   color: var(--ink-muted);
 }
-
-/* Competency & Simulation Grid */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -827,8 +805,6 @@ mark.hl-gold {
   line-height: 1.6;
   color: var(--ink-secondary);
 }
-
-/* Podiums List */
 .podium-list {
   display: flex;
   flex-direction: column;
@@ -860,8 +836,6 @@ mark.hl-gold {
 [data-theme="dark"] .medal-silver {
   color: #9CA3AF;
 }
-
-/* Business Mindset Grid */
 .mindset-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -897,8 +871,6 @@ mark.hl-gold {
   line-height: 1.6;
   color: var(--ink-secondary);
 }
-
-/* Skills Matrix */
 .skills-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -941,8 +913,6 @@ mark.hl-gold {
   border-radius: 3px;
   font-family: var(--font-sans);
 }
-
-/* Printable Resume Sheet */
 .resume-box {
   background-color: var(--bg-card);
   border: 1px solid var(--rule);
@@ -1014,8 +984,6 @@ mark.hl-gold {
   line-height: 1.55;
   margin-bottom: var(--space-3);
 }
-
-/* Contact Section */
 .contact-card {
   padding: clamp(2rem, 5vw, 3.5rem);
   background-color: var(--bg-card);
@@ -1047,8 +1015,6 @@ mark.hl-gold {
   gap: var(--space-3);
   padding-top: var(--space-2);
 }
-
-/* Toast Notification */
 .copy-toast {
   position: fixed;
   bottom: 2rem;
@@ -1075,8 +1041,6 @@ mark.hl-gold {
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
-
-/* Site Footer */
 .site-footer {
   border-top: 1px solid var(--rule);
   padding: var(--space-8) 0;
@@ -1109,8 +1073,6 @@ mark.hl-gold {
 .footer-link:hover {
   color: var(--ink);
 }
-
-/* Scroll Animation Transitions */
 .reveal-item {
   opacity: 0;
   transform: translateY(20px);
@@ -1123,8 +1085,6 @@ mark.hl-gold {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* Responsive Media Queries */
 @media (max-width: 960px) {
   .grid-12 {
     display: flex;
@@ -1187,8 +1147,6 @@ mark.hl-gold {
     display: none;
   }
 }
-
-/* Print Styles */
 @media print {
   body {
     background-color: #FFFFFF !important;
